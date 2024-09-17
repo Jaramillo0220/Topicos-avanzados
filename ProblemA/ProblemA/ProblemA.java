@@ -34,8 +34,7 @@ public class ProblemA {
 
                 // Verificamos si la entrada ya se ingresó anteriormente
                 if (previousInputs.contains(entrada)) {
-                    System.out.println(
-                            "Esta combinación de respuestas ya fue ingresada. Por favor, ingresa una diferente.");
+                    System.out.println("Esta combinación de respuestas ya fue ingresada. Ingresa una diferente.");
                     repeat = true;
                     continue; // Volvemos a pedir una nueva entrada
                 }
