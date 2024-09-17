@@ -79,7 +79,7 @@ public class ProblemA {
         separarParametros(entrada);
 
         // Comparar los resultados individuales
-        if ((axex == patasAxex) || (basiliscos == patasBasiliscos) || (centauros == patasCentauros)) {
+        if ((axex == patasAxex) && (basiliscos == patasBasiliscos) && (centauros == patasCentauros)) {
             System.out.println("Correcto.");
         } else {
             System.out.println("Incorrecto.");
