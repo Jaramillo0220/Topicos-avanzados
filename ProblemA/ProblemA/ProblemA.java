@@ -1,3 +1,9 @@
+/*
+ * HERRERA GARCIA JOSE SALVADOR  
+ * OVIEDO CUEVA EDGAR URIEL
+ * JARAMILLO LUNA JOSE ANGEl
+ */
+
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -63,6 +69,8 @@ public class ProblemA {
 
         // Mostrar el número de patas de cada animal al final
         System.out.printf("%d %d %d%n", patasAxex, patasBasiliscos, patasCentauros);
+        // Este código lo estoy dejando solo para validar la respuesta final. Se quita
+        // cuando lo presentemos
 
         // Ingresar los valores finales para verificar si acertó con las patas de cada
         // animal
